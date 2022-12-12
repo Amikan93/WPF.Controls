@@ -72,7 +72,6 @@
                     <Button Click="Button_Click_2" Content="GetPassword"></Button>
                 </StackPanel>
             </TabItem>
-
             <TabItem Header="ListBox">
                 <StackPanel>
                     <WrapPanel>
@@ -100,7 +99,6 @@
                         <ListBoxItem>Item #1</ListBoxItem>
                         <ListBoxItem>Item #1</ListBoxItem>
                         <ListBoxItem>Item #1</ListBoxItem>
-
                         <ListBoxItem IsSelected="True">
                             <WrapPanel>
                                 <Image Source="https://www.shutterstock.com/ru/image-photo/portrait-happy-young-woman-wearing-face-1855133740" Height="30"></Image>
@@ -111,7 +109,37 @@
 
                 </StackPanel>
             </TabItem>
+            <TabItem Header="Scroll">
 
+                <StackPanel Height="250">
+                  <ScrollViewer Margin="0,3,10,3"
+                                VerticalScrollBarVisibility="Visible"
+                                HorizontalScrollBarVisibility="Visible">
+
+                      <TextBox TextWrapping="Wrap">
+                          Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                      when an unknown printer took a galley of type and scrambled it to make a 
+                      type specimen book.
+                      </TextBox>
+
+                    </ScrollViewer>
+                </StackPanel>
+            </TabItem>
+
+            <TabItem Header="Slider">
+                <Slider Maximum="60"
+                        TickPlacement="BottomRight"
+                        TickFrequency="10"
+                        IsSnapToTickEnabled="True"
+                        IsSelectionRangeEnabled="True">
+
+                </Slider>
+            </TabItem>
+
+            <TabItem>
+                <ProgressBar Height="8" Width="450" IsIndeterminate="True"></ProgressBar>
+            </TabItem>
         </TabControl>
     </Grid>
 </Window>
