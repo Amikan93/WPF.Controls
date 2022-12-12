@@ -150,6 +150,10 @@
                 <Calendar></Calendar>
             </TabItem>
 
+            <TabItem Header="Datepicker">
+                <DatePicker></DatePicker>
+            </TabItem>
+
         </TabControl>
     </Grid>
 </Window>
