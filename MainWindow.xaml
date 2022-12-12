@@ -137,7 +137,7 @@
                 </Slider>
             </TabItem>
 
-            <TabItem>
+            <TabItem Header="ProgressBar">
                 <ProgressBar Height="8" Width="450"
                              Minimum="0"
                              Maximum="100"
@@ -145,6 +145,11 @@
 
                 </ProgressBar>
             </TabItem>
+
+            <TabItem Header="Calendar">
+                <Calendar></Calendar>
+            </TabItem>
+
         </TabControl>
     </Grid>
 </Window>
